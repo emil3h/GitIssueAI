@@ -6,3 +6,5 @@
 
 ## Examples of Issues: 
 https://github.com/emil3h/GitIssueAI/issues/1  HTML file comparison 
+
+https://github.com/emil3h/GitIssueAI/issues/3  Python file comparison 
