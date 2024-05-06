@@ -20,11 +20,14 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
+h1,
+h2,
+h3 {
   text-align: center;
 }
 
-.upload-section, .comparison-section {
+.upload-section,
+.comparison-section {
   margin-bottom: 20px;
 }
 
@@ -38,13 +41,12 @@ h1, h2 {
 
 .file-input {
   display: block;
-  width: calc(100% - 20px); 
+  width: calc(100% - 20px);
   padding: 5px;
   margin-top: 5px;
   border: 1px solid #ccc;
   border-radius: 3px;
 }
-
 
 button {
   display: block;
@@ -55,6 +57,7 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
 }
 
 button:hover {
@@ -68,6 +71,18 @@ button:hover {
 
 @media screen and (max-width: 600px) {
   .container {
-      padding: 10px;
+    padding: 10px;
   }
+}
+
+input::file-selector-button {
+  color: dodgerblue;
+  padding: 0.5em;
+  border: thin solid white;
+  border-radius: 3px;
+}
+
+input::file-selector-button:hover {
+  border: thin solid black;
+  border-radius: 3px;
 }
