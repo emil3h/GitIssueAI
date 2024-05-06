@@ -5,22 +5,46 @@ body {
   background-color: #f4f4f4;
 }
 
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+}
+
 .container {
-  max-width: 600px;
-  margin: 50px auto;
+  max-width: 800px;
+  margin: 20px auto;
   padding: 20px;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+h1, h2 {
   text-align: center;
 }
 
-input[type="file"] {
+.upload-section, .comparison-section {
+  margin-bottom: 20px;
+}
+
+.upload-container {
   margin-bottom: 10px;
 }
+
+.file-label {
+  font-weight: bold;
+}
+
+.file-input {
+  display: block;
+  width: calc(100% - 20px); 
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
 
 button {
   display: block;
@@ -40,4 +64,10 @@ button:hover {
 #differences {
   margin-top: 20px;
   white-space: pre-wrap;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+      padding: 10px;
+  }
 }
