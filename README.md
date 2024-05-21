@@ -1,5 +1,6 @@
-# ~~Got Issues?~~ Git Issues?
+# GitIssueAI 
 
+## About
 - Upload your files and let ChatGPT analyze your code changes. 
 
 - A numbered list of differences will be generated along with a GitHub CLI command.
@@ -14,8 +15,10 @@ https://github.com/emil3h/GitIssueAI/issues/3  Python file comparison
 
 
 ## How to run locally: 
-Open your terminal in the project directory and run this main.py file with this command,  ```python main.py```
+1. After downloading the files, create a ```.env``` file in the project directory to store your ChatGPT API key. Use this ```OPENAI_API_KEY=" "```
 
-Click the link in your terminal: http://127.0.0.1:5000
+2. Open your terminal in the project directory and run this main.py file with this command,  ```python main.py```
 
-Now you can use the site by uploading your files that you wish to compare.
+3. Click the link in your terminal: http://127.0.0.1:5000
+
+4. Use the site by uploading your files that you wish to compare.
