@@ -13,7 +13,8 @@ app = Flask(__name__)
 # Define a generic prompt for comparison
 generic_prompt = '''
 Analyze the contents of the two files and make note of the differences. 
-Create a detailed list of the differences when comparing {content1} to {content2}. Display these changes in a numbered formatt with two newlines after each number. 
+Create a detailed list of the differences when comparing {content1} to {content2}. 
+Display these changes in a numbered formatt with two newlines after each number. 
 Using these differences, please generate a GitHub CLI command for creating an issue which lists all the changes. 
 I am going to provide a template for your output. 
 Use the following GitHub CLI command template to create the issue to track these changes, 
