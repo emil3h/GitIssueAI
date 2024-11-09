@@ -15,7 +15,7 @@ https://github.com/emil3h/GitIssueAI/issues/3  Python file comparison
 
 
 ## How to run locally: 
-1. After downloading the files, create a ```.env``` file in the project directory to store your ChatGPT API key. Use this ```OPENAI_API_KEY=" "```
+1. After downloading the files, create a ```.env``` file in the project directory to store your ChatGPT API key. Add this line ```OPENAI_API_KEY=" "```
 
 2. Open your terminal in the project directory and run this main.py file with this command,  ```python main.py```
 
