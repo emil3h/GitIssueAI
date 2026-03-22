@@ -96,3 +96,4 @@ src/
     └── validation.ts            # File extension and size validation
 ```
 
+Original 2024 Version: https://youtu.be/IsGEaJs9gRQ
